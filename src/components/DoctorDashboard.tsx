@@ -154,7 +154,7 @@ export default function DoctorDashboard() {
                 <img 
                     src="/media/logo.png" 
                     alt="PNEUMO Suivie Logo" 
-                    className="w-13 h-13 sm:w-12 sm:h-12 object-contain"
+                    className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-20 lg:h-20 object-contain"
                     onError={(e) => {
                     const target = e.target as HTMLImageElement;
                     target.style.display = 'none';
