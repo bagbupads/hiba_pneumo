@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- CUSTOM STYLES --- */
+
+/* 1. Supprime les flèches (spinners) des inputs number sur Chrome, Safari, Edge, Opera */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* 2. Supprime les flèches sur Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* 3. Cache la scrollbar tout en gardant le scroll fonctionnel (pour les onglets) */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* 4. Animation fluide pour les dialogues */
+@keyframes zoomIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+.animate-zoom-in {
+  animation: zoomIn 0.2s ease-out forwards;
+}
