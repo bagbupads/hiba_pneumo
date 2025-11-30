@@ -107,7 +107,7 @@ const styleTag = `
     100% { transform: translateX(-50%); }
   }
   .animate-marquee {
-    animation: marquee 30s linear infinite;
+    animation: marquee 10s linear infinite;
   }
 `;
 
@@ -215,7 +215,7 @@ const HeroSection = () => (
            />
          </div>
          <div>
-           <div className="text-xs lg:text-xs text-slate-800 font-bold leading-tight">Connecté au Dr. FDIL</div>
+           <div className="text-xs lg:text-xs text-slate-800 font-bold leading-tight">Connecté au Dr.HAMMI Sanae</div>
            <div className="text-[9px] lg:text-[10px] text-slate-500 leading-tight mt-0.5">Votre médecin est informé</div>
          </div>
       </div>
