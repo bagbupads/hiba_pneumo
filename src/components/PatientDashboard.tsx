@@ -80,7 +80,7 @@ export default function PatientDashboard() {
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center gap-3">
                 <img 
-                    src="/public/media/logo.png" 
+                    src="/media/logo.png" 
                     alt="PNEUMO Suivie Logo" 
                     className="w-13 h-13 sm:w-12 sm:h-12 object-contain"
                     onError={(e) => {

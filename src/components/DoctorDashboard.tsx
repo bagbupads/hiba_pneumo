@@ -152,7 +152,7 @@ export default function DoctorDashboard() {
         <div className="h-20 flex items-center px-6 border-b border-slate-100/50">
            <div className="flex items-center gap-3">
                 <img 
-                    src="/public/media/logo.png" 
+                    src="/media/logo.png" 
                     alt="PNEUMO Suivie Logo" 
                     className="w-13 h-13 sm:w-12 sm:h-12 object-contain"
                     onError={(e) => {

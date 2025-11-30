@@ -200,7 +200,7 @@ const HeroSection = () => (
       <div className="absolute -right-2 lg:-right-10 top-4 lg:top-8 glass-card p-3 lg:p-4 rounded-xl flex items-center gap-3 lg:gap-4 animate-float-medium z-30 max-w-[160px] lg:max-w-[200px] bg-white/90">
          <div className="w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600 shrink-0">
            <img 
-             src="/public/media/25.jpg" 
+             src="/media/25.jpg" 
              alt="Dr. HAMMA Sanae" 
              className="w-6 h-6 lg:w-8 lg:h-8 rounded-full object-cover"
              onError={(e) => {
@@ -267,7 +267,7 @@ export default function LandingPage({ onPatientLogin, onDoctorLogin, onPatientRe
               <div className="relative w-8 h-8 lg:w-10 lg:h-10 flex items-center justify-center">
                  <div className="">
                     <img 
-                        src="/public/media/logo.png" 
+                        src="/media/logo.png" 
                         alt="PNEUMO Suivie Logo" 
                         className="w-12 h-12 lg:w-15 lg:h-15 object-contain"
                         onError={(e) => {
